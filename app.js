@@ -16,7 +16,7 @@ const WEEKDAYS = ['星期一', '星期二', '星期三', '星期四', '星期五
 const WEEKDAY_CLASSES = ['weekday-mon', 'weekday-tue', 'weekday-wed', 'weekday-thu', 'weekday-fri', 'weekday-sat', 'weekday-sun'];
 const DATA_VERSION = 4;
 const API_SCHEDULE = '/api/schedule';
-const PERSON_OPTIONS = ['哥哥', '妹妹'];
+const PERSON_OPTIONS = ['哥哥', '妹妹', '爸爸'];
 
 const PALETTE = [
   '#92A5D1', '#C5DFF4', '#AEB2D1', '#D9B9D4',
@@ -159,7 +159,8 @@ function getActivityPersons(act) {
 }
 
 function formatPersonsLabel(persons) {
-  if (persons.length === PERSON_OPTIONS.length) return '兄妹';
+  if (persons.length === PERSON_OPTIONS.length) return '全员';
+  if (persons.length === 2 && persons.includes('哥哥') && persons.includes('妹妹')) return '兄妹';
   return persons.join('·');
 }
 
