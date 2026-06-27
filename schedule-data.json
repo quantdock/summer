@@ -1,0 +1,329 @@
+{
+  "version": 4,
+  "activities": [
+    {
+      "id": "act_1",
+      "persons": [
+        "哥哥",
+        "妹妹"
+      ],
+      "date": "2026-07-05",
+      "title": "AI夏令营",
+      "startTime": "08:00",
+      "endTime": "21:00",
+      "color": "#92A5D1"
+    },
+    {
+      "id": "act_2",
+      "persons": [
+        "哥哥",
+        "妹妹"
+      ],
+      "date": "2026-07-06",
+      "title": "AI夏令营",
+      "startTime": "08:00",
+      "endTime": "21:00",
+      "color": "#92A5D1"
+    },
+    {
+      "id": "act_3",
+      "persons": [
+        "哥哥",
+        "妹妹"
+      ],
+      "date": "2026-07-07",
+      "title": "AI夏令营",
+      "startTime": "08:00",
+      "endTime": "21:00",
+      "color": "#92A5D1"
+    },
+    {
+      "id": "act_4",
+      "persons": [
+        "哥哥",
+        "妹妹"
+      ],
+      "date": "2026-07-08",
+      "title": "AI夏令营",
+      "startTime": "08:00",
+      "endTime": "21:00",
+      "color": "#92A5D1"
+    },
+    {
+      "id": "act_5",
+      "persons": [
+        "哥哥",
+        "妹妹"
+      ],
+      "date": "2026-07-09",
+      "title": "AI夏令营",
+      "startTime": "08:00",
+      "endTime": "21:00",
+      "color": "#92A5D1"
+    },
+    {
+      "id": "act_6",
+      "persons": [
+        "哥哥",
+        "妹妹"
+      ],
+      "date": "2026-07-10",
+      "title": "AI夏令营",
+      "startTime": "08:00",
+      "endTime": "21:00",
+      "color": "#92A5D1"
+    },
+    {
+      "id": "act_7",
+      "persons": [
+        "哥哥"
+      ],
+      "date": "2026-07-14",
+      "title": "传言",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "color": "#DAA87C"
+    },
+    {
+      "id": "act_8",
+      "persons": [
+        "哥哥"
+      ],
+      "date": "2026-07-14",
+      "title": "传言",
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "color": "#DAA87C"
+    },
+    {
+      "id": "act_9",
+      "persons": [
+        "哥哥"
+      ],
+      "date": "2026-07-15",
+      "title": "传言",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "color": "#DAA87C"
+    },
+    {
+      "id": "act_10",
+      "persons": [
+        "哥哥"
+      ],
+      "date": "2026-07-15",
+      "title": "传言",
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "color": "#DAA87C"
+    },
+    {
+      "id": "act_11",
+      "persons": [
+        "哥哥"
+      ],
+      "date": "2026-07-16",
+      "title": "传言",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "color": "#DAA87C"
+    },
+    {
+      "id": "act_12",
+      "persons": [
+        "哥哥"
+      ],
+      "date": "2026-07-16",
+      "title": "传言",
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "color": "#DAA87C"
+    },
+    {
+      "id": "act_13",
+      "persons": [
+        "哥哥"
+      ],
+      "date": "2026-07-17",
+      "title": "传言",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "color": "#DAA87C"
+    },
+    {
+      "id": "act_14",
+      "persons": [
+        "哥哥"
+      ],
+      "date": "2026-07-17",
+      "title": "传言",
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "color": "#DAA87C"
+    },
+    {
+      "id": "act_15",
+      "persons": [
+        "妹妹"
+      ],
+      "date": "2026-07-13",
+      "title": "学术夏令营",
+      "startTime": "08:30",
+      "endTime": "15:50",
+      "color": "#C9DCC4"
+    },
+    {
+      "id": "act_16",
+      "persons": [
+        "妹妹"
+      ],
+      "date": "2026-07-14",
+      "title": "学术夏令营",
+      "startTime": "08:30",
+      "endTime": "15:50",
+      "color": "#C9DCC4"
+    },
+    {
+      "id": "act_17",
+      "persons": [
+        "妹妹"
+      ],
+      "date": "2026-07-15",
+      "title": "学术夏令营",
+      "startTime": "08:30",
+      "endTime": "15:50",
+      "color": "#C9DCC4"
+    },
+    {
+      "id": "act_18",
+      "persons": [
+        "妹妹"
+      ],
+      "date": "2026-07-16",
+      "title": "学术夏令营",
+      "startTime": "08:30",
+      "endTime": "15:50",
+      "color": "#C9DCC4"
+    },
+    {
+      "id": "act_19",
+      "persons": [
+        "妹妹"
+      ],
+      "date": "2026-07-17",
+      "title": "学术夏令营",
+      "startTime": "08:30",
+      "endTime": "15:50",
+      "color": "#C9DCC4"
+    },
+    {
+      "id": "act_20",
+      "persons": [
+        "妹妹"
+      ],
+      "date": "2026-07-20",
+      "title": "学术夏令营",
+      "startTime": "08:30",
+      "endTime": "15:50",
+      "color": "#C9DCC4"
+    },
+    {
+      "id": "act_21",
+      "persons": [
+        "妹妹"
+      ],
+      "date": "2026-07-21",
+      "title": "学术夏令营",
+      "startTime": "08:30",
+      "endTime": "15:50",
+      "color": "#C9DCC4"
+    },
+    {
+      "id": "act_22",
+      "persons": [
+        "妹妹"
+      ],
+      "date": "2026-07-22",
+      "title": "学术夏令营",
+      "startTime": "08:30",
+      "endTime": "15:50",
+      "color": "#C9DCC4"
+    },
+    {
+      "id": "act_23",
+      "persons": [
+        "妹妹"
+      ],
+      "date": "2026-07-23",
+      "title": "学术夏令营",
+      "startTime": "08:30",
+      "endTime": "15:50",
+      "color": "#C9DCC4"
+    },
+    {
+      "id": "act_24",
+      "persons": [
+        "妹妹"
+      ],
+      "date": "2026-07-24",
+      "title": "学术夏令营",
+      "startTime": "08:30",
+      "endTime": "15:50",
+      "color": "#C9DCC4"
+    },
+    {
+      "id": "act_1782121407206_k6umji",
+      "persons": [
+        "哥哥"
+      ],
+      "date": "2026-06-29",
+      "title": "哥哥毕业典礼",
+      "startTime": "08:00",
+      "endTime": "15:30",
+      "color": "#F4EEAC"
+    },
+    {
+      "id": "act_1782121919701_76pe5b",
+      "persons": [
+        "哥哥",
+        "妹妹"
+      ],
+      "date": "2026-06-30",
+      "title": "乐读",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "color": "#D9B9D4"
+    },
+    {
+      "id": "act_1782121919701_0s81e6",
+      "persons": [
+        "哥哥",
+        "妹妹"
+      ],
+      "date": "2026-07-01",
+      "title": "乐读",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "color": "#D9B9D4"
+    },
+    {
+      "id": "act_1782121919702_b74fk5",
+      "persons": [
+        "哥哥",
+        "妹妹"
+      ],
+      "date": "2026-07-02",
+      "title": "乐读",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "color": "#D9B9D4"
+    }
+  ],
+  "colorMap": {
+    "AI夏令营": "#92A5D1",
+    "传言": "#DAA87C",
+    "学术夏令营": "#C9DCC4",
+    "哥哥毕业典礼": "#F4EEAC",
+    "乐读": "#D9B9D4"
+  }
+}

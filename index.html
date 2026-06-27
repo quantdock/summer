@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>暑假日程安排</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">暑假日程安排</h1>
+    <div class="header-controls">
+      <div class="person-filter" id="personFilter">
+        <span>查看：</span>
+        <label class="checkbox-label"><input type="checkbox" name="filterPerson" value="哥哥" checked> 哥哥</label>
+        <label class="checkbox-label"><input type="checkbox" name="filterPerson" value="妹妹" checked> 妹妹</label>
+      </div>
+      <div class="file-actions">
+        <span id="saveStatus" class="save-status" hidden></span>
+      </div>
+    </div>
+  </header>
+
+  <div id="loadError" class="load-error" hidden>
+    无法加载日程数据，请运行 <code>python3 server.py</code> 后访问 <code>http://localhost:8765</code>
+  </div>
+
+  <main id="scheduleContainer" class="schedule-container"></main>
+
+  <dialog id="editDialog" class="edit-dialog">
+    <form id="editForm">
+      <h2 id="dialogTitle">编辑日程</h2>
+      <div class="form-group" id="datePickerGroup">
+        <label>日期（可多选）</label>
+        <div class="month-calendar">
+          <div class="month-nav">
+            <button type="button" id="calPrev" class="btn btn-icon" aria-label="上个月">‹</button>
+            <span id="calTitle" class="month-title"></span>
+            <button type="button" id="calNext" class="btn btn-icon" aria-label="下个月">›</button>
+          </div>
+          <div class="month-calendar-table" id="monthCalendar"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>参与人</label>
+        <div class="person-checkboxes" id="activityPersons">
+          <label class="checkbox-label"><input type="checkbox" name="person" value="哥哥"> 哥哥</label>
+          <label class="checkbox-label"><input type="checkbox" name="person" value="妹妹"> 妹妹</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="activityTitle">活动名称</label>
+        <input type="text" id="activityTitle" required placeholder="例如：篮球、游泳">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="activityStart">开始时间</label>
+          <input type="time" id="activityStart" required step="900">
+        </div>
+        <div class="form-group">
+          <label for="activityEnd">结束时间</label>
+          <input type="time" id="activityEnd" required step="900">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>底色（同类活动自动同色）</label>
+        <div class="color-palette" id="activityColorPalette"></div>
+        <input type="hidden" id="activityColor" value="#92A5D1">
+      </div>
+      <div class="dialog-actions">
+        <button type="button" id="deleteBtn" class="btn btn-danger">删除</button>
+        <div class="dialog-actions-right">
+          <button type="button" id="cancelBtn" class="btn">取消</button>
+          <button type="submit" class="btn btn-primary">确定</button>
+        </div>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="calendar.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
